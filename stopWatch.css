@@ -1,0 +1,48 @@
+body{
+    background-color: aquamarine;
+}
+.circle{
+    height: 200px;
+    width: 200px;
+    background-color: white;
+    border-radius: 50%;
+    border: 7px solid rgb(220, 130, 220);
+    display: inline-block;
+    position: relative;
+}   
+.child{
+    font-size: 30px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    /* margin: -25px 0 0 -25px; */
+    transform: translate(-50%, -50%);
+    /*negative top, negative left*/
+}
+
+.minutes{
+    margin: 1px 0 0 -25px;
+}            
+.seconds{
+    margin: 1px 0 0 25px;
+}
+.start,
+.stop,
+.exit{
+    margin-top: 10px;   
+    border: none;
+    border-radius: 40px;
+    padding: 20px 25px; 
+    font-weight: bolder;
+    cursor: pointer;            
+}
+.start{                
+    margin-left: 8.5px;
+    margin-right: 40px;
+    background-color: rgb(220, 130, 220);
+    color: white;
+}      
+.changeToStop{
+    background-color: rgb(223, 83, 83);
+    color: white;
+}
